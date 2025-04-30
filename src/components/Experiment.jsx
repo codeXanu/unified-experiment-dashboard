@@ -10,9 +10,16 @@ export default function Experiment({ experiment }) {
             <p className="text-md text-blue-500 m-1" >Start Date: {experiment.startDate}</p>
         </div>
         <p className="text-md text-blue-500 m-1" >
+          {
+            experiment.status ==="Running" ? 
             <span className="inline-flex items-center rounded-md bg-blue-300 px-2 py-1 text-xs font-medium text-gray-900 ">
                 {experiment.status}
-            </span>
+            </span> 
+            :
+            <span className="inline-flex items-center rounded-md bg-green-300 px-2 py-1 text-xs font-medium text-gray-900 ">
+                {experiment.status}
+            </span> 
+          }
            
         </p>
       </div>

@@ -43,7 +43,7 @@ export default function Dashboard() {
         //   onClick={resetFilters}
           className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded shadow"
         >
-          Reset Filters
+          Clear Filters
         </button>
       </div>
         <h1 className="text-4xl font-bold text-blue-600 mb-3" >All Experiments</h1>
