@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .metric-box {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
