@@ -3,12 +3,10 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    background: #f8f9fa;
+    background: #ffffff;
   }
   
-  .container {
-    padding: 2rem;
-  }
+  
   
   .card {
     border: 1px solid #ddd;
